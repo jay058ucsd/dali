@@ -155,3 +155,17 @@ gunzip examples/zinc/data/database.json.gz
 python main.py -c ./examples/zinc/config.toml
 ```
 ![zinc example output](examples/zinc/outputs/1789681788.009109_Median_Zinc_Value_by_Food_Group_(Descending_Order).png)
+
+## 🔮 What’s Next
+
+### **Single‑cell RNA‑seq (scRNA-seq) Support**
+  Expand the system to handle real single‑cell RNA sequencing datasets, enabling autonomous analysis pipelines for clustering, normalization, dimensionality reduction, and biological interpretation.
+
+### **Richer Statistical Telemetry**
+  Add detailed runtime statistics such as token usage, execution cost, agent‑level performance metrics, and workflow efficiency tracking.
+
+### **Multimodal Model Integration**
+  Introduce support for multimodal LLMs capable of evaluating and scoring image quality, enabling agents to critique plots, visualizations, and generated figures.
+
+### **Model Switching & Benchmarking***
+  Switch between different LLM backends to compare reasoning quality, code generation and overall performance across models.
