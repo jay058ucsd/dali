@@ -151,6 +151,7 @@ https://github.com/wesm/pydata-book/blob/3rd-edition/datasets/usda_food/database
 * **Fully Automated Workflow**: All code is generated, executed, and validated automatically.
 
 ```bash
+gunzip examples/zinc/data/database.json.gz
 python main.py -c ./examples/zinc/config.toml
 ```
 ![zinc example output](examples/zinc/outputs/1789681788.009109_Median_Zinc_Value_by_Food_Group_(Descending_Order).png)
