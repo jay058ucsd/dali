@@ -1,0 +1,17 @@
+[llm]
+max_rounds = 4
+max_retry = 5
+#max_token_cost = 0.50
+max_tokens = 4096
+max_stdout = 2048
+model = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+coding_model = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+#coding_model = "deepseek-ai/DeepSeek-V4-Pro"
+temperature = 0.1
+[sandbox]
+timeout = 60
+runtime = "sandbox_env"
+output_dir = "examples/zinc/outputs"
+refactory = "Y"
+data_file = "examples/zinc/data/database.json"
+user_query = "Please work on the data.json file to find out Median zinc values by food group. Each food has a number of identifying attributes along with two lists of nutrients and portion sizes. Data in this form is not particularly amenable to analysis, so we need to do some work to wrangle the data into a better form."

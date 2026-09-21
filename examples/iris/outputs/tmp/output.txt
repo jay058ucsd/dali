@@ -1,0 +1,209 @@
+###
+
+###
+Dataset shape:
+(150, 4)
+Column names:
+['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']
+Data types:
+sepal length (cm)    float64
+sepal width (cm)     float64
+petal length (cm)    float64
+petal width (cm)     float64
+dtype: object
+First few rows:
+   sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)
+0                5.1               3.5                1.4               0.2
+1                4.9               3.0                1.4               0.2
+2                4.7               3.2                1.3               0.2
+3                4.6               3.1                1.5               0.2
+4                5.0               3.6                1.4               0.2
+
+###
+Created png file: 1789953265.976233_Sepal_Length_vs_Sepal_Width.png
+###
+Created png file: 1789953278.662723_Petal_Length_vs_Petal_Width.png
+###
+Created png file: 1789953284.602387_Sepal_Length_vs_Petal_Length.png
+###
+Created png file: 1789953294.796892_Sepal_Width_vs_Petal_Width.png,1789953294.742441_1789953289_Sepal_Width_vs_Petal_Width.png
+###
+Created png file: 1789953313.1729631_Petal_Width.png
+###
+Created png file: 1789953320.56641_1789953313_Petal_Width.png,1789953320.653184_Petal_Width.png
+###
+Species: setosa
+Sepal Length Mean: 5.006, Std: 0.3489469873777391
+Sepal Width Mean: 3.428, Std: 0.37525458025186054
+Petal Length Mean: 1.4620000000000002, Std: 0.17191858538273283
+Petal Width Mean: 0.24599999999999997, Std: 0.1043264108459598
+
+Species: versicolor
+Sepal Length Mean: 5.936, Std: 0.5109833656783751
+Sepal Width Mean: 2.7700000000000005, Std: 0.31064449134018135
+Petal Length Mean: 4.26, Std: 0.4651881339845203
+Petal Width Mean: 1.3259999999999998, Std: 0.19576516544063705
+
+Species: virginica
+Sepal Length Mean: 6.587999999999998, Std: 0.6294886813914926
+Sepal Width Mean: 2.974, Std: 0.3192553836664309
+Petal Length Mean: 5.5520000000000005, Std: 0.546347874526844
+Petal Width Mean: 2.0260000000000002, Std: 0.2718896835115301
+
+sepal length (cm) Correlation: 1.0
+sepal width (cm) Correlation: -0.11756978413300206
+petal length (cm) Correlation: 0.8717537758865831
+petal width (cm) Correlation: 0.8179411262715756
+sepal length (cm) ANOVA F-statistic: 119.26450218450468, p-value: 1.6696691907693826e-31
+sepal width (cm) ANOVA F-statistic: 49.160040089612075, p-value: 4.492017133309115e-17
+petal length (cm) ANOVA F-statistic: 1180.161182252981, p-value: 2.8567766109615584e-91
+petal width (cm) ANOVA F-statistic: 960.007146801809, p-value: 4.169445839443116e-85
+
+###
+Dataset shape:
+(150, 4)
+Column names:
+['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']
+Data types:
+sepal length (cm)    float64
+sepal width (cm)     float64
+petal length (cm)    float64
+petal width (cm)     float64
+dtype: object
+First few rows:
+   sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)
+0                5.1               3.5                1.4               0.2
+1                4.9               3.0                1.4               0.2
+2                4.7               3.2                1.3               0.2
+3                4.6               3.1                1.5               0.2
+4                5.0               3.6                1.4               0.2
+
+###
+Explained Variance:
+[0.92461872 0.05306648]
+Dataset shape after PCA:
+(150, 3)
+Column names after PCA:
+['Principal Component 1', 'Principal Component 2', 'species']
+Data types after PCA:
+Principal Component 1    float64
+Principal Component 2    float64
+species                   object
+dtype: object
+First few rows after PCA:
+   Principal Component 1  Principal Component 2 species
+0              -2.684126               0.319397  setosa
+1              -2.714142              -0.177001  setosa
+2              -2.888991              -0.144949  setosa
+3              -2.745343              -0.318299  setosa
+4              -2.728717               0.326755  setosa
+Created png file: 1789953352.256234_PCA.png
+###
+Explained Variance:
+[0.92461872 0.05306648 0.01710261]
+Dataset shape after PCA:
+(150, 4)
+Column names after PCA:
+['Principal Component 1', 'Principal Component 2', 'Principal Component 3', 'species']
+Data types after PCA:
+Principal Component 1    float64
+Principal Component 2    float64
+Principal Component 3    float64
+species                   object
+dtype: object
+First few rows after PCA:
+   Principal Component 1  Principal Component 2  Principal Component 3 species
+0              -2.684126               0.319397              -0.027915  setosa
+1              -2.714142              -0.177001              -0.210464  setosa
+2              -2.888991              -0.144949               0.017900  setosa
+3              -2.745343              -0.318299               0.031559  setosa
+4              -2.728717               0.326755               0.090079  setosa
+Created png file: 1789953361.8543758_90518757067921836163760117480177543862_PCA.png,1789953361.7869701_PCA.png
+###
+Dataset shape after t-SNE:
+(150, 3)
+Column names after t-SNE:
+['t-SNE Component 1', 't-SNE Component 2', 'species']
+Data types after t-SNE:
+t-SNE Component 1    float32
+t-SNE Component 2    float32
+species               object
+dtype: object
+First few rows after t-SNE:
+   t-SNE Component 1  t-SNE Component 2 species
+0         -24.546103           0.385957  setosa
+1         -21.995268           1.238001  setosa
+2         -21.829699           0.071281  setosa
+3         -21.510372           0.335518  setosa
+4         -24.538082          -0.135107  setosa
+Created png file: 1789953377.111017_t-SNE.png
+###
+Dataset shape after LLE:
+(150, 3)
+Column names after LLE:
+['LLE Component 1', 'LLE Component 2', 'species']
+Data types after LLE:
+LLE Component 1    float64
+LLE Component 2    float64
+species             object
+dtype: object
+First few rows after LLE:
+   LLE Component 1  LLE Component 2 species
+0    -1.682559e-14    -2.361348e-08  setosa
+1    -2.332921e-14     3.749612e-08  setosa
+2    -2.834771e-14     8.216636e-08  setosa
+3    -1.868327e-14    -7.044379e-09  setosa
+4    -2.941765e-14     9.518951e-08  setosa
+Created png file: 1789953389.173574_LLE.png,1789953389.2141_238810079846070786289598499287777324970_LLE.png
+###
+Explained Variance:
+[0.92461872 0.05306648]
+Dataset shape after PCA:
+(150, 3)
+Column names after PCA:
+['Principal Component 1', 'Principal Component 2', 'species']
+Data types after PCA:
+Principal Component 1    float64
+Principal Component 2    float64
+species                   object
+dtype: object
+First few rows after PCA:
+   Principal Component 1  Principal Component 2 species
+0              -2.684126               0.319397  setosa
+1              -2.714142              -0.177001  setosa
+2              -2.888991              -0.144949  setosa
+3              -2.745343              -0.318299  setosa
+4              -2.728717               0.326755  setosa
+Dataset shape after t-SNE:
+(150, 3)
+Column names after t-SNE:
+['t-SNE Component 1', 't-SNE Component 2', 'species']
+Data types after t-SNE:
+t-SNE Component 1    float32
+t-SNE Component 2    float32
+species               object
+dtype: object
+First few rows after t-SNE:
+   t-SNE Component 1  t-SNE Component 2 species
+0         -24.546103           0.385957  setosa
+1         -21.995268           1.238001  setosa
+2         -21.829699           0.071281  setosa
+3         -21.510372           0.335518  setosa
+4         -24.538082          -0.135107  setosa
+Dataset shape after LLE:
+(150, 3)
+Column names after LLE:
+['LLE Component 1', 'LLE Component 2', 'species']
+Data types after LLE:
+LLE Component 1    float64
+LLE Component 2    float64
+species             object
+dtype: object
+First few rows after LLE:
+   LLE Component 1  LLE Component 2 species
+0     5.337363e-13         0.000031  setosa
+1    -3.684286e-13        -0.000015  setosa
+2    -5.314316e-13        -0.000023  setosa
+3    -6.707373e-13        -0.000030  setosa
+4     6.452637e-13         0.000037  setosa
+Created png file: 1789953401.630093_t-SNE.png,1789953401.6689768_48779569448327208090211792249452848681_tSNE.png,1789953401.71959_13276829344367958189821657379997795055_LLE.png,1789953401.346756_PCA.png,1789953401.6833541_LLE.png,1789953401.3977962_81766932457901839999815117964935379879_PCA.png

@@ -1,0 +1,15 @@
+[llm]
+max_rounds = 2
+max_retry = 5
+#max_token_cost = 0.50
+max_tokens = 4096
+max_stdout = 2048
+model = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+coding_model = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+#coding_model = "deepseek-ai/DeepSeek-V4-Pro"
+temperature = 0.1
+[sandbox]
+timeout = 60
+runtime = "sandbox_env"
+output_dir = "outputs"
+refactory = "Y"

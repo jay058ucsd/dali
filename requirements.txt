@@ -1,0 +1,8 @@
+langgraph
+langchain
+together
+pydantic
+python-dotenv
+anyio
+pyyaml
+ipython
